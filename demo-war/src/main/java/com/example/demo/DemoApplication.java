@@ -16,10 +16,6 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
-//        TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory();
-//        ServletContextInitializer[] initializers = new ServletContextInitializer[1];
-//        WebServer server = factory.getWebServer(initializers);
-//        server.start();
     }
 
     @RequestMapping("/")
@@ -41,3 +37,4 @@ public class DemoApplication {
         }
     }
 }
+
